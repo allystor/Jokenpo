@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+button:focus {
+    border: none;
+}
+
+.opcao{
+    border: 5px solid #6c35a2;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px #482599;
+    margin: 15px 8px;
+}
+.opcao:hover{
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+img {
+    width: 40%;
+}
+body {
+    text-align: center;
+    background-color: #fff;
+}
+.P {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#resetar{
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition-duration: 0.3s;
+}
+
+#resetar:hover{
+    padding: 5px;
+    padding-left: 170px;
+    padding-right: 170px;
+    border-radius: 5px;
+    border: 3px solid black;
+    transition-duration: 0.3s;
+}
+
+#retornoVitoria{
+    padding: 5px;
+}
+
+#retornoEmpate{
+    padding: 5px;
+}
+#retornoDerrotas {
+    padding: 5px;
+}

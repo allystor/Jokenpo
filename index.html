@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="teste.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>JOKENPO</h1>
+    <div class="P">
+        <div class="G">
+            <h2>Para jogar, selecione pedra, papel ou tesoura:</h2>
+            <button onclick="jogarPapel();"><img class="opcao"src="imagens/papel.png" alt=""></button>
+            <button onclick="jogarPedra();"><img class="opcao"src="imagens/pedra.png" alt=""></button>
+            <button onclick="jogarTesoura();"><img class="opcao"src="imagens/tesoura.png" alt=""></button>
+            <p id="retorno"></p>
+            <div>
+                <h3>Vitorias = <h3 id="retornoVitoria"></h3></h3>
+                <h3>Empates = <h3 id="retornoEmpate"></h3></h3>
+                <h3>Derrotas = <h3 id="retornoDerrota"></h3></h3><br>
+                <button onclick="Resetar();" id="resetar">Resetar Pontuação</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
